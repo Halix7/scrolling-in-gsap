@@ -11,6 +11,10 @@ gsap.from("#page2 #box",{
     rotate:360,
     scrollTrigger:{
         trigger:"#page2 #box",
-        scroller:"body"
+        scroller:"body",
+        markers:true,
+        start:"top 60%",
+        end:"top 30%",
+        scrub:1
     }
 })
